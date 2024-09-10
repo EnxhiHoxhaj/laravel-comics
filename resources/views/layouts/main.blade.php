@@ -12,9 +12,9 @@
 </head>
 <body>
 
-    @include('partials.navbar')
+    @include('partials.header')
 
-    @yield('hero')
+    @yield('header')
 
     @yield('content')
 
