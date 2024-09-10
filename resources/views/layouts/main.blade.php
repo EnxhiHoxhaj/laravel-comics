@@ -12,14 +12,14 @@
 </head>
 <body>
 
-    @include('partials.header')
-    @include('partials.jambo')
+    @include('partials._header')
+    @include('partials._jambo')
 
     @yield('header')
 
     @yield('content')
 
-    @include('partials.footer')
+    @include('partials._footer')
 
 </body>
 </html>
